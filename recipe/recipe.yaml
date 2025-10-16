@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-confluent-kafka
-  version: "0.58b0"
+  version: "0.59b0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_confluent_kafka-${{ version }}.tar.gz
-  sha256: cf107d555e05e226c379a5bb2a77afe060b2f7efb882e63a600aba3b346ff9f9
+  sha256: f6d8706aadd9051fbf75eac323f8f80b1e245a59a84d7aa368691ee68e4ba3f8
 
 build:
   number: 0
