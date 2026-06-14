@@ -28,8 +28,10 @@ requirements:
     - opentelemetry-instrumentation==${{ version }}
     - opentelemetry-semantic-conventions==${{ version }}
     - opentelemetry-api >=1.12,<2.dev0
+    # https://github.com/open-telemetry/opentelemetry-python-contrib/blob/v0.63b1/instrumentation/opentelemetry-instrumentation-confluent-kafka/pyproject.toml#L31
     - wrapt >=1.0.0,<3.0.0
-    - python-confluent-kafka >=1.8.2,<=2.11.0
+    # https://github.com/open-telemetry/opentelemetry-python-contrib/blob/v0.63b1/instrumentation/opentelemetry-instrumentation-confluent-kafka/pyproject.toml#L35
+    - python-confluent-kafka >=1.8.2,<3.0.0
 
 tests:
   - python:
