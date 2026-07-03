@@ -9,6 +9,10 @@ Package license: Apache-2.0
 
 Summary: OpenTelemetry Confluent Kafka instrumentation
 
+Development: https://github.com/open-telemetry/opentelemetry-python-contrib
+
+OpenTelemetry Confluent Kafka instrumentation
+
 Current build status
 ====================
 
