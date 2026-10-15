@@ -28,8 +28,6 @@ requirements:
     - opentelemetry-semantic-conventions==${{ version }}
     - opentelemetry-api >=1.12,<2.dev0
     - wrapt >=1.0.0,<3.0.0
-    - opentelemetry-instrumentation ==0.66b1
-    - opentelemetry-semantic-conventions ==0.66b1
 tests:
   - python:
       imports:
@@ -50,4 +48,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - jsmolic
     - rxm7706
